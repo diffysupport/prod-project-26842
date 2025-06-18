@@ -1,0 +1,73 @@
+basic:
+    name: 'https://vinings.bebright2024.skybox2.com/'
+    environments:
+        production: 'https://vinings.bebright2024.skybox2.com/'
+        staging: 'https://vinings.bebright2024.skybox4.com/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /locations/smyrna
+        - /services
+        - /services/infant-exam
+        - /services/frenectomies
+        - /services/preventative-care
+        - /services/preventative-care/dental-exams-cleanings
+        - /services/preventative-care/fluoride-treatments
+        - /services/preventative-care/sealant-for-teeth
+        - /services/restorative-care
+        - /services/restorative-care/tooth-extractions
+        - /services/restorative-care/fillings-restorations
+        - /services/restorative-care/pulpotomies-root-canals
+        - /services/diagnostic-services
+        - /services/specialized-treatments
+        - /services/specialized-treatments/sports-dentistry
+        - /services/specialized-treatments/laser-dentistry
+        - /services/specialized-treatments/special-needs-dentistry
+        - /about-us
+        - /about-us/what-sets-us-apart
+        - /about-us/our-doctors
+        - /about-us/our-team
+        - /about-us/news
+        - /about-us/careers
+        - /about-us/contact-us
+        - /your-visit
+        - /your-visit/new-patients
+        - /your-visit/financial-insurance-information
+        - /your-visit/pediatric-faqs
+        - /resources
+        - /about-us/our-team-grid
+        - /privacy-policy
+        - /hipaa-notice-of-privacy-practices
+        - /accessibility-statement
+        - /opt-out-preferences
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 10
+    scroll: false
+    headers: {  }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: {  }
+    sensitivity: 30
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
